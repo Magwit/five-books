@@ -226,23 +226,35 @@ https://codepen.io/Ampix0/pen/qmxqNL
     margin: 0 auto;
   }
 
+  .header {
+    flex-direction: column;
+  }
+
 
   .menu,
   .menu-link {
-    width: 400px;
+    /*width: 960px;*/
     background-color: inherit;
+
+  }
+
+  .menu-link {
+    display: inline;
+    width: inherit;
   }
 
   .menu ul li {
     display: inline;
     list-style: none;
+    color: red;
 
 
   }
 
   li a {
-    /*display:inline;*/
+    display:inline; /* THIS IS THE ONE THAT MAKE THE NAV HORIZONTAL */
   }
+
 
   .hamburger-icon {
     display: none;
