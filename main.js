@@ -2,6 +2,18 @@
 
 $(function() {
   console.log("Hei");
+
+  // defauult
+
+  // click hamburger icon to display menu
+
+  $(".hamburger-icon").on('click',function() {
+    console.log("burgertime!");
+    $(".menu").css("display", "block");
+  })
+
+
+  // click menu item to scroll to section
   $("a[href^='#']").on('click', function(e) {
     // prevent default anchor click behavior
     e.preventDefault();
@@ -23,9 +35,12 @@ $(function() {
       // set a variable that I can use in animate
       off = 60;
     }
-    //  var poxel = 60;
+
+    /*
+    var poxel = 60;
     var poxel = $('.menu').height();
     console.log(poxel);
+    */
 
     // animate
     $('html, body').animate({
@@ -38,7 +53,7 @@ $(function() {
 
 // DONE mobile and tablet: Open close nav.
 // DONE: conditional media query hide for mobie and rtablet.
-
+// DONE basic hamburget toggle for mobile and tablet
 
 // Next if needed: Conditional offset for mobile and tablet..  https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header*/
 

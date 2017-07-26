@@ -47,7 +47,7 @@ p, a {
 }
 
 .menu {
-  display: flex;
+  display: none;
   background-color: #43bc73;
   /*width: 90vw;*/
 }
