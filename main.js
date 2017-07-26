@@ -3,13 +3,24 @@
 $(function() {
   console.log("Hei");
 
+  var off = 0;
+
   // defauult
+  // if desktop display block
+  if( $(window).width() >= 960  ) {
+    // $(".menu").css("display","block");
+    // toggleClass to block-display
+    //
+    off = 60;
+
+  }
 
   // click hamburger icon to display menu
 
   $(".hamburger-icon").on('click',function() {
     console.log("burgertime!");
-    $(".menu").css("display", "block");
+    $(".menu").toggleClass("none-display");
+    // $(".menu").css("display", "block");
   })
 
 
@@ -24,11 +35,11 @@ $(function() {
 
     if ($(window).width() < 401) {
       console.log("mobile");
-      $('.menu').css("display", "none");
+      // $('.menu').css("display", "none");
       // set a variable that I can use in animate
     } else if ($(window).width() < 959 && $(window).width() > 400) {
       console.log('tablet');
-      $('.menu').css("display", "none");
+      // $('.menu').css("display", "none");
       // set a variable that I can use in animate
     } else {
       console.log('desktop');
@@ -54,6 +65,7 @@ $(function() {
 // DONE mobile and tablet: Open close nav.
 // DONE: conditional media query hide for mobie and rtablet.
 // DONE basic hamburget toggle for mobile and tablet
+// TODO: troubleshoot and polish the hamburger and nav
 
 // Next if needed: Conditional offset for mobile and tablet..  https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header*/
 

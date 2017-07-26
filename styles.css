@@ -47,9 +47,17 @@ p, a {
 }
 
 .menu {
-  display: none;
+  /*display: flex;*/
   background-color: #43bc73;
   /*width: 90vw;*/
+}
+
+.none-display {
+  display: none;
+}
+
+.block-display {
+  display: block;
 }
 
 a {
