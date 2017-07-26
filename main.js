@@ -8,19 +8,28 @@ $(function() {
 
     // hide the menu for mobile and tablet.
 
-    if( $(window).width() < 401 ) {
+    var off = 0;
+
+    if ($(window).width() < 401) {
       console.log("mobile");
-    } else if( $(window).width() < 959 &&  $(window).width() > 400) {
+      $('.menu').css("display", "none");
+      // set a variable that I can use in animate
+    } else if ($(window).width() < 959 && $(window).width() > 400) {
       console.log('tablet');
       $('.menu').css("display", "none");
+      // set a variable that I can use in animate
     } else {
       console.log('desktop');
+      // set a variable that I can use in animate
+      off = 60;
     }
-
+    //  var poxel = 60;
+    var poxel = $('.menu').height();
+    console.log(poxel);
 
     // animate
     $('html, body').animate({
-      scrollTop: $(this.hash).offset().top - 60
+      scrollTop: $(this.hash).offset().top - off
     }, 300, function() {});
   });
   console.log("the end");
