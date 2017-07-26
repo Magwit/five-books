@@ -1,11 +1,24 @@
-console.log("Hei");
+// Navigation with offset (for desktop) and scroll
+
+$(function() {
+  console.log("Hei");
+  $("a[href^='#']").on('click', function(e) {
+    // prevent default anchor click behavior
+    e.preventDefault();
+
+    // animate
+    $('html, body').animate({
+      scrollTop: $(this.hash).offset().top - 60
+    }, 300, function() {});
+  });
+  console.log("the end");
+});
 
 
 
 
-// document.getElementById("hamburger-icon").addEventListener("click", function(){
-//     document.getElementsByTagName("li").style.display = "none";
-// });
+/// https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header*/
 
 
-// TODO: Use this model to create the effect. https://codepen.io/escherina/pen/pyxYqz Det är tid att plugga javascript igen?
+
+// : Use this model for hamburger on off. https://codepen.io/escherina/pen/pyxYqz Det är tid att plugga javascript igen?

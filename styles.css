@@ -198,7 +198,6 @@ https://codepen.io/Ampix0/pen/qmxqNL
   .page, .header {
     width: 960px;
     margin: 0 auto;
-
   }
   .header {
     flex-direction: column;
@@ -210,15 +209,11 @@ https://codepen.io/Ampix0/pen/qmxqNL
     right: 0;
     height: 12vh;
     z-index: 1;
-
   }
-
   .page {
     position: relative;
-    top:12vh;
-
+    top: 12vh;
   }
-  
   .menu, .menu-link {
     /*width: 960px;*/
     background-color: inherit;
@@ -250,9 +245,7 @@ https://codepen.io/Ampix0/pen/qmxqNL
   .content, .image-content img {
     width: 45%;
   }
-
   .footer {
     height: 15vh;
   }
-
 }
