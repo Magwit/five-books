@@ -9,10 +9,12 @@ $(function() {
     // hide the menu for mobile and tablet.
 
     if( $(window).width() < 401 ) {
-      console.log('tiny screen');
+      console.log("mobile");
+    } else if( $(window).width() < 959 &&  $(window).width() > 400) {
+      console.log('tablet');
       $('.menu').css("display", "none");
     } else {
-      console.log('big screen');
+      console.log('desktop');
     }
 
 
@@ -26,7 +28,7 @@ $(function() {
 
 
 // DONE mobile and tablet: Open close nav.
-// TODO: conditional media query hide.
+// DONE: conditional media query hide for mobie and rtablet.
 
 
 // Next if needed: Conditional offset for mobile and tablet..  https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header*/
