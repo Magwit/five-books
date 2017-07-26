@@ -18,12 +18,12 @@ Monochrome palette light to greener
   margin: 0;
   box-sizing: border-box;
   font-family: "andada", serif;
-
 }
 
 h1 {
   font-size: 9.9vw;
 }
+
 h4 {
   font-size: 4.5vmin;
 }
@@ -31,6 +31,7 @@ h4 {
 p, a {
   font-size: 3.5vmin;
 }
+
 .header {
   display: flex;
   flex-direction: row;
@@ -48,18 +49,14 @@ p, a {
 .menu {
   display: flex;
   background-color: #43bc73;
-
   /*width: 90vw;*/
 }
 
- a {
-   display:flex;
+a {
+  display: flex;
   text-decoration: none;
-
   align-items: center;
 }
-
-
 
 .menu-link {
   border-bottom: 0.3vmin solid #61c88a;
@@ -70,10 +67,7 @@ p, a {
   font-family: sans-serif;
   color: black;
   list-style: none;
-
 }
-
-
 
 .page {
   display: flex;
@@ -136,7 +130,7 @@ p, a {
   background-color: #80d4a1;
 }
 
-.third-section > .imagecontent img {
+.third-section>.imagecontent img {
   width: 40vw;
 }
 
@@ -167,45 +161,30 @@ https://codepen.io/Ampix0/pen/qmxqNL
 
 /* ######  Tablet styles ####### */
 
-
-
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-
-
-
   .header ul {
     display: block;
   }
-
-
-
   .section {
     flex-direction: row;
-    justify-content:space-around;
-    align-items:center;
+    justify-content: space-around;
+    align-items: center;
   }
-
-
   .image-content {
     width: 45vw;
     margin-right: 10px;
     border: 1px solid crimson;
   }
-
   .image-content img {
     width: 45vw;
   }
-
   .header-content {
-    width:40vw;
+    width: 40vw;
     border: 1px solid orange;
   }
-
   .idea-content {
     border: 1px solid purple;
   }
-
-
 }
 
 
@@ -216,59 +195,64 @@ https://codepen.io/Ampix0/pen/qmxqNL
     /*background-color: deeppink;
     color: hotpink;*/
   }
-
-
-
-  .page,
-  .header
- {
+  .page, .header {
     width: 960px;
     margin: 0 auto;
-  }
 
+  }
   .header {
     flex-direction: column;
+    /*width: 90%;*/
+    /*margin-left: 15%;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 12vh;
+    z-index: 1;
+
   }
 
+  .page {
+    position: relative;
+    top:12vh;
 
-  .menu,
-  .menu-link {
+  }
+  
+  .menu, .menu-link {
     /*width: 960px;*/
     background-color: inherit;
-
   }
-
   .menu-link {
     display: inline;
     width: inherit;
+    border-bottom: none;
+    font-size: 2vmin;
   }
-
   .menu ul li {
     display: inline;
     list-style: none;
     color: red;
-
-
   }
-
   li a {
-    display:inline; /* THIS IS THE ONE THAT MAKE THE NAV HORIZONTAL */
+    display: inline;
+    /* THIS IS THE ONE THAT MAKE THE NAV HORIZONTAL */
+    border-bottom: none;
   }
-
-
   .hamburger-icon {
     display: none;
   }
-
   .section {
     flex-direction: column;
-      width:960px;
+    width: 960px;
+    height: 88vh;
+  }
+  .content, .image-content img {
+    width: 45%;
   }
 
-
-  .content,
-  .image-content img {
-    width: 45%;
+  .footer {
+    height: 15vh;
   }
 
 }
