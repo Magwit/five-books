@@ -50,7 +50,8 @@ $(function() {
 // DONE: simple discreet menu hover effect.. bigger title header
 // DONE: attributions
 // ICEBOXED: links to goodreads on master branch
-// TODO: clean up the master redundant code an borders. add attribution in footer.  prep for a new branch with te´weaked font sizes..? 
+// DONE: clean up the master redundant code an borders. add attribution in footer.  prep for a new branch with te´weaked font sizes..?
+// TODO: final tweak of footer design for all sizes 
 
 // Next if needed: Conditional offset for mobile and tablet..  https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header*/
 
