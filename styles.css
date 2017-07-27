@@ -47,17 +47,11 @@ p, a {
 }
 
 .menu {
-  /*display: flex;*/
   background-color: #43bc73;
-  /*width: 90vw;*/
 }
 
 .none-display {
   display: none;
-}
-
-.block-display {
-  display: block;
 }
 
 a {
@@ -230,7 +224,7 @@ https://codepen.io/Ampix0/pen/qmxqNL
     display: inline;
     width: inherit;
     border-bottom: none;
-    font-size: 2vmin;
+    font-size: 2.2vmin;
   }
   .menu ul li {
     display: inline;
