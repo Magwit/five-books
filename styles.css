@@ -21,15 +21,15 @@ Monochrome palette light to greener
 }
 
 h5 {
-  font-size: 5vmin;
+  font-size: 5vh;
 }
 
 h4 {
-  font-size: 4.5vmin;
+  font-size: 4.5vh;
 }
 
 p, a {
-  font-size: 3.7vmin;
+  font-size: 3.7vh;
 }
 
 .header {
@@ -153,12 +153,12 @@ a {
   text-align: center;
   background-color: #111;
   color: #dff5e7;
-  height: 25vh;
+  height: 28vh;
   padding: 5px 5px;
 }
 
 .footer p {
-  font-size: 3vmin;
+  font-size: 3.2vmin;
 }
 
 
@@ -250,5 +250,9 @@ a {
   }
   .footer {
     height: 28vh;
+  }
+
+  .footer p {
+    font-size: 2.5vmin;
   }
 }
