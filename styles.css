@@ -20,8 +20,8 @@ Monochrome palette light to greener
   font-family: "andada", serif;
 }
 
-h1 {
-  font-size: 9.9vw;
+h5 {
+  font-size: 5vmin;
 }
 
 h4 {
@@ -42,9 +42,9 @@ p, a {
   /*text-align: center;*/
 }
 
-.header h4 {
+/*.header h5{
   font-family: "andadascbold", serif;
-}
+}*/
 
 .menu {
   background-color: #43bc73;
@@ -66,10 +66,16 @@ a {
   width: 100vw;
   align-items: center;
   /*line-height: 1.2vw;*/
-  font-family: sans-serif;
-  color: black;
+  font-family: "arial", sans-serif;
+  color: #2E2E2E;
   list-style: none;
 }
+
+.menu-link:hover, .menu-link:active {
+  color: #000;
+}
+
+
 
 .page {
   display: flex;
@@ -175,17 +181,17 @@ https://codepen.io/Ampix0/pen/qmxqNL
   .image-content {
     width: 45vw;
     margin-right: 10px;
-    border: 1px solid crimson;
+    /*border: 1px solid crimson;*/
   }
   .image-content img {
     width: 45vw;
   }
   .header-content {
     width: 40vw;
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
   }
   .idea-content {
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
   }
 }
 

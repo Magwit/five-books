@@ -46,7 +46,8 @@ $(function() {
 // DONE: conditional media query hide for mobie and rtablet.
 // DONE: basic hamburget toggle for mobile and tablet
 // DONE: troubleshoot and polish the hamburger and nav
-// TODO: adjust the scrollTop values to height of header on desktop and adapt hide menu behaviour to only apply to mobile/tablet
+// DONE: adjust the scrollTop values to height of header on desktop and adapt hide menu behaviour to only apply to mobile/tablet
+// DONE: simple discreet menu hover effect.. bigger title header
 
 // Next if needed: Conditional offset for mobile and tablet..  https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header*/
 
