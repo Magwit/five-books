@@ -29,7 +29,7 @@ h4 {
 }
 
 p, a {
-  font-size: 3.5vmin;
+  font-size: 3.7vmin;
 }
 
 .header {
@@ -41,6 +41,7 @@ p, a {
   flex-wrap: wrap;
   /*text-align: center;*/
 }
+
 
 /*.header h5{
   font-family: "andadascbold", serif;
@@ -74,8 +75,6 @@ a {
 .menu-link:hover, .menu-link:active {
   color: #000;
 }
-
-
 
 .page {
   display: flex;
@@ -151,10 +150,16 @@ a {
 }
 
 .footer {
-  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
   background-color: #111;
   color: #dff5e7;
   height: 15vh;
+  padding: 5px 5px;
+}
+
+.footer p {
+  font-size: 3vmin;
 }
 
 
