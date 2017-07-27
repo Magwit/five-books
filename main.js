@@ -48,7 +48,9 @@ $(function() {
 // DONE: troubleshoot and polish the hamburger and nav
 // DONE: adjust the scrollTop values to height of header on desktop and adapt hide menu behaviour to only apply to mobile/tablet
 // DONE: simple discreet menu hover effect.. bigger title header
-// TODO: attributions
+// DONE: attributions
+// ICEBOXED: links to goodreads on master branch
+// TODO: clean up the master redundant code an borders. add attribution in footer.  prep for a new branch with te´weaked font sizes..? 
 
 // Next if needed: Conditional offset for mobile and tablet..  https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header*/
 

@@ -91,19 +91,11 @@ a {
   align-items: center;
   color: #111;
   flex-wrap: wrap;
-  /*height: 100vw;*/
 }
 
 .content {
-  /*https://www.youtube.com/watch?v=0pmSueY_Qyk&list=PLOatFu3AxdOpjG5cEAd0oyviR-ISVbngO&index=1*/
-  /*border: 1px solid tomato;*/
   text-align: center;
   width: 90vw;
-  /*text-align: center;
-  justify-content: center;*/
-  /*padding:  0;*/
-  /*margin-right: 6vw;
-  margin-left: 6vw;*/
 }
 
 .header-content {
@@ -111,6 +103,13 @@ a {
   /*height: 10vh;*/
   margin-top: 2vh;
   padding-bottom: 2vh;
+}
+
+.image-content {
+  /*display: flex;*/
+  /*border: 2px solid deeppink;*/
+  width: 55vw;
+  /*padding: 0 20px;*/
 }
 
 .image-content img {
@@ -154,22 +153,13 @@ a {
   text-align: center;
   background-color: #111;
   color: #dff5e7;
-  height: 15vh;
+  height: 25vh;
   padding: 5px 5px;
 }
 
 .footer p {
   font-size: 3vmin;
 }
-
-
-/*
-BÄst video
-https://www.youtube.com/watch?v=Mkza0N8NiK4
-Practice in codepen
-https://codepen.io/Ampix0/pen/qmxqNL
-
-*/
 
 
 /* ######  Tablet styles ####### */
@@ -205,8 +195,7 @@ https://codepen.io/Ampix0/pen/qmxqNL
 
 @media only screen and (min-width: 961px) {
   * {
-    /*background-color: deeppink;
-    color: hotpink;*/
+
   }
   .page, .header {
     width: 960px;
@@ -255,10 +244,11 @@ https://codepen.io/Ampix0/pen/qmxqNL
     width: 960px;
     height: 88vh;
   }
+
   .content, .image-content img {
     width: 45%;
   }
   .footer {
-    height: 15vh;
+    height: 28vh;
   }
 }
